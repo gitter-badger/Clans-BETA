@@ -26,7 +26,7 @@ class ClanCommands {
 	
 	public $plugin;
 	
-	public function __construct(ClanMain $pg) {
+	public function __construct(Main $pg) {
 		$this->plugin = $pg;
 	}
 	
