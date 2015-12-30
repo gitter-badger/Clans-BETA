@@ -3,7 +3,7 @@ author: Edwardthedog2
 description: A plugin for giving your server a clans system.
 version: 1.0.0
 main: Clans\Main
-api: [1.12.0]
+api: [1.13.0]
 commands:
   c:
     description: use /c help for all parameters
