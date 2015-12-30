@@ -62,7 +62,7 @@ class ClanCommands {
 							$sender->sendMessage($this->plugin->formatMessage("This name is not allowed."));
 							return true;
 						}
-						if($this->plugin->factionExists($args[1]) == true ) {
+						if($this->plugin->clanExists($args[1]) == true ) {
 							$sender->sendMessage($this->plugin->formatMessage("clan already exists"));
 							return true;
 						}
