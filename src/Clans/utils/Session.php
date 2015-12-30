@@ -50,9 +50,9 @@ class Session
 		return $this->invite;
 	}
 	
-	public function updateFaction()
+	public function updateClan()
 	{
-		foreach($this->plugin->getFactions() as $clan)
+		foreach($this->plugin->getClans() as $clan)
 		{
 			if($clan->hasPlayer($this->player))
 			{
